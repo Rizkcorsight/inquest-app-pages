@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Inquest — Daily Detective Game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A new mystery every day. Same case for every detective by local date. Spoiler-proof share grid.">
+<meta property="og:title" content="Inquest — Daily Detective Game">
+<meta property="og:description" content="One murder. One day. Solve it.">
+<meta property="og:type" content="website">
+<style>
+  :root {
+    --paper: #f0e7d0;
+    --paper-edge: #e8d4a8;
+    --ink: #2a2a2a;
+    --stamp: #b73327;
+    --accent: #c73d2e;
+    --muted: #6f6759;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #1a1c1a;
+      --paper-edge: #232524;
+      --ink: #f0e7d0;
+      --stamp: #e5564a;
+      --accent: #e5564a;
+      --muted: #9a9385;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper-edge);
+    color: var(--ink);
+    font-family: 'Iowan Old Style', 'Charter', Georgia, serif;
+    line-height: 1.5;
+  }
+  .frame {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 32px 96px;
+    background: var(--paper);
+    min-height: 100vh;
+  }
+  header {
+    text-align: center;
+    border-bottom: 1px solid var(--paper-edge);
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+  }
+  .stamp {
+    display: inline-block;
+    border: 3px solid var(--stamp);
+    color: var(--stamp);
+    padding: 6px 18px;
+    transform: rotate(-2deg);
+    font-weight: 900;
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+  .tagline {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: var(--muted);
+    letter-spacing: 1px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 24px 0 8px;
+  }
+  h2 {
+    font-size: 20px;
+    border-top: 1px solid var(--paper-edge);
+    padding-top: 24px;
+    margin-top: 32px;
+  }
+  p { font-size: 17px; }
+  ul li { margin-bottom: 8px; }
+  .cta {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 14px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 16px;
+    border-radius: 8px;
+  }
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    color: var(--muted);
+    margin-top: 64px;
+    font-family: 'Courier New', monospace;
+  }
+  .footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="frame">
+  <header>
+    <div class="stamp">INQUEST</div>
+    <div class="tagline">a daily detective game</div>
+  </header>
+
+  <h1>One murder. One day. Solve it.</h1>
+
+  <p>Every day, a fresh case opens on your phone at local midnight. Same victim, same suspects, same evidence — every detective worldwide working the same file by their own local date. You have 24 hours before the next one drops.</p>
+
+  <p><a class="cta" href="https://apps.apple.com/app/inquest/idTODO">Download on the App Store</a></p>
+
+  <h2>What you do</h2>
+  <ul>
+    <li><strong>Open the file.</strong> Examine evidence at the scene. Read the coroner's report. Every case is fair-play: the solution is always derivable from what you can see.</li>
+    <li><strong>Interview the suspects.</strong> Pick three questions per suspect from a curated menu.</li>
+    <li><strong>Pin your theory.</strong> Take notes. Connect clues. Pin the contradiction that breaks an alibi.</li>
+    <li><strong>File your report.</strong> Name the culprit, the weapon, the place, the motive. Get it right on the first try for the cleanest result.</li>
+    <li><strong>Climb the ranks.</strong> Constable → Sergeant → Inspector → Chief Inspector → Sherlock.</li>
+    <li><strong>Share without spoilers.</strong> Compare your solve with friends — your story, not the killer.</li>
+  </ul>
+
+  <h2>Why Inquest is different</h2>
+  <ul>
+    <li>A full year of cases at launch — 365 mysteries, every one validated by a built-in fair-play solver.</li>
+    <li>Six languages day-one: English, Spanish, French, German, Japanese, Simplified Chinese — translated for narrative, not just menus.</li>
+    <li>Five twist types: false alibis, mistaken identity, accomplice cover, wrong weapon, suicide staged as murder.</li>
+    <li>Settings worldwide. Tokyo film studios. Lagos art galleries. Reykjavík dive resorts. Renaissance Venice. Victorian London. Modern São Paulo.</li>
+    <li>Game Center leaderboards: daily solve time, all-time rank, longest streak.</li>
+    <li>No subscription. No ads. No IAP for content. $0.99 once. Yours forever.</li>
+  </ul>
+
+  <div class="footer">
+    <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · &copy; 2026 Rizk Corsight
+  </div>
+</div>
+</body>
+</html>
